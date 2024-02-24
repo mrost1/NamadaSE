@@ -1,13 +1,13 @@
 # NamadaSE
 Namada tasks
 
-##**Operating IBC / Interoperability infrastructure**
+## **Operating IBC / Interoperability infrastructure**
 
 - Creating channels with Hermes: https://github.com/mrost1/NamadaSE/blob/main/Hermes%20setup
 
-###**Cosmos (theta-testnet-001) - Namada SE (shielded-expedition.88f17d1d14)**
+### **Cosmos (theta-testnet-001) - Namada SE (shielded-expedition.88f17d1d14)**
 
-####Command on Cosmos:
+#### Command on Cosmos:
 
 gaiad tx ibc-transfer transfer transfer channel-3828 tnam1qplcsk0hxncxxfvun4vxqrk0s9p37cr70gkul7et 1000uatom --from cosmos1x4q0t35vvsv4qtzxhxsfa62ucdjzd8vy4k8fv8 --fees 5000uatom
 
