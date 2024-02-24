@@ -3,7 +3,7 @@ Namada tasks
 
 Operating IBC / Interoperability infrastructure
 
-Creating channels with Hermes: https://github.com/mrost1/NamadaSE/blob/main/Hermes%20setup
+- Creating channels with Hermes: https://github.com/mrost1/NamadaSE/blob/main/Hermes%20setup
 
 Cosmos (theta-testnet-001) - Namada SE (shielded-expedition.88f17d1d14) 
 
@@ -14,8 +14,8 @@ gaiad tx ibc-transfer transfer transfer channel-3828 tnam1qplcsk0hxncxxfvun4vxqr
 txhash: 6E15F62DE5978AC284AA7DDBE9F75601CC9995A021D34FE77139DC5528F13362
 
 namadac balance --owner  relayer --node http://localhost:26657
-naan: 713.5
-transfer/channel-311/uatom: 1000
+- naan: 713.5
+- transfer/channel-311/uatom: 1000
 
 On block explorer (proof):
 https://www.mintscan.io/cosmoshub-testnet/tx/92BEFE13863D591EC5383E1B685362C6F18AF5C2639C4C3DF6BF529E497A21E6?height=20438105 
