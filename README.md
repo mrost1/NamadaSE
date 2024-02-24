@@ -1,13 +1,13 @@
 # NamadaSE
 Namada tasks
 
-Operating IBC / Interoperability infrastructure
+##**Operating IBC / Interoperability infrastructure**
 
 - Creating channels with Hermes: https://github.com/mrost1/NamadaSE/blob/main/Hermes%20setup
 
-Cosmos (theta-testnet-001) - Namada SE (shielded-expedition.88f17d1d14) 
+###**Cosmos (theta-testnet-001) - Namada SE (shielded-expedition.88f17d1d14)**
 
-Command on Cosmos:
+####Command on Cosmos:
 
 gaiad tx ibc-transfer transfer transfer channel-3828 tnam1qplcsk0hxncxxfvun4vxqrk0s9p37cr70gkul7et 1000uatom --from cosmos1x4q0t35vvsv4qtzxhxsfa62ucdjzd8vy4k8fv8 --fees 5000uatom
 
@@ -20,7 +20,7 @@ namadac balance --owner  relayer --node http://localhost:26657
 On block explorer (proof):
 https://www.mintscan.io/cosmoshub-testnet/tx/92BEFE13863D591EC5383E1B685362C6F18AF5C2639C4C3DF6BF529E497A21E6?height=20438105 
 
-Command on Namada:
+####Command on Namada:
 
 namadac ibc-transfer --source relayer --receiver cosmos1x4q0t35vvsv4qtzxhxsfa62ucdjzd8vy4k8fv8 --token naan  --amount 100 --channel-id channel-311  --memo tpknam1qpall8pt60ek5zgeyxstdkhrp34rrqj67a2jrklrl9sddln0grq87nluum5 --node http://localhost:26657
 Transaction added to mempool.
