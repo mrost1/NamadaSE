@@ -20,7 +20,7 @@ namadac balance --owner  relayer --node http://localhost:26657
 On block explorer (proof):
 https://www.mintscan.io/cosmoshub-testnet/tx/92BEFE13863D591EC5383E1B685362C6F18AF5C2639C4C3DF6BF529E497A21E6?height=20438105 
 
-####Command on Namada:
+#### Command on Namada:
 
 namadac ibc-transfer --source relayer --receiver cosmos1x4q0t35vvsv4qtzxhxsfa62ucdjzd8vy4k8fv8 --token naan  --amount 100 --channel-id channel-311  --memo tpknam1qpall8pt60ek5zgeyxstdkhrp34rrqj67a2jrklrl9sddln0grq87nluum5 --node http://localhost:26657
 Transaction added to mempool.
