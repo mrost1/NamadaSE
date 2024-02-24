@@ -1,6 +1,7 @@
-Cosmos channel
+# Cosmos channel
 
-hermes create channel --a-chain shielded-expedition.88f17d1d14 --b-chain theta-testnet-001   --a-port transfer --b-port transfer --new-client-connection
+## hermes create channel --a-chain shielded-expedition.88f17d1d14 --b-chain theta-testnet-001   --a-port transfer --b-port transfer --new-client-connection
+
 SUCCESS Channel {
     ordering: Unordered,
     a_side: ChannelSide {
@@ -57,9 +58,10 @@ SUCCESS Channel {
 hermes query channels --show-counterparty --chain theta-testnet-001   
 
 
-OSMOSIS channel 
+# OSMOSIS channel 
 
-hermes create channel --a-chain shielded-expedition.88f17d1d14 --b-chain osmo-test-5 --a-port transfer --b-port transfer --new-client-connection
+## hermes create channel --a-chain shielded-expedition.88f17d1d14 --b-chain osmo-test-5 --a-port transfer --b-port transfer --new-client-connection
+
 SUCCESS Channel {
     ordering: Unordered,
     a_side: ChannelSide {
