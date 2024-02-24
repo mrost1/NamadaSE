@@ -17,7 +17,7 @@ namadac balance --owner  relayer --node http://localhost:26657
 - naan: 713.5
 - transfer/channel-311/uatom: 1000
 
-On block explorer (proof):
+***On block explorer (proof)***
 https://www.mintscan.io/cosmoshub-testnet/tx/92BEFE13863D591EC5383E1B685362C6F18AF5C2639C4C3DF6BF529E497A21E6?height=20438105 
 
 #### Command on Namada:
