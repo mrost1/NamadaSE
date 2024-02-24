@@ -2,7 +2,8 @@
 Namada tasks
 
 Operating IBC / Interoperability infrastructure
-Creating channels: https://github.com/mrost1/NamadaSE/blob/main/Hermes%20setup
+
+Creating channels with Hermes: https://github.com/mrost1/NamadaSE/blob/main/Hermes%20setup
 
 Cosmos (theta-testnet-001) - Namada SE (shielded-expedition.88f17d1d14) 
 
